@@ -5,7 +5,7 @@ import asyncio
 import soundfile as sf
 from mutagen.mp3 import MP3
 
-Playback_Device = "SFX (Elgato Virtual Audio)"
+Playback_Device = None
 
 class AudioManager:
 
